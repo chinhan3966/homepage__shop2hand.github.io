@@ -428,6 +428,118 @@ input[type="submit"]{
     color: #cfcfcf;
 }
 
+footer .bottom{
+    background-color: #1c1d26;
+    color: #fff;
+    padding: 2rem 8.5rem;
+}
+footer .bottom .bottom__container{
+    display: flex;
+    justify-content: space-around;
+}
+footer .bottom .bottom__container .bottom__item{
+    flex-basis: 22%;
+}
+footer .bottom .bottom__container .bottom__item h1{
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+footer .bottom .bottom__container .bottom__item h2{
+    font-size: 1.3rem;
+    color: #bdbdbd;
+    padding: 5px 0;
+}
+footer .bottom .bottom__container .bottom__item p{
+    font-size: 1.1rem;
+    color: #bdbdbd;
+    line-height: 26px;
+}
+
+@media  screen and (max-width: 500px) {
+
+    .header1 {
+        flex-direction: column;
+    }
+    .header1 h4 {
+        margin-left: 0;
+    }
+    .header1 i {
+        text-align: right;
+        margin-right: 0;
+    }
+   .header2__nav{
+       display: none;
+ }
+   .header2__menu{
+       background-image: url(./img/menu.png);
+       background-repeat: no-repeat;
+       width: 40px;
+       height: 40px;
+       background-position: center;
+       background-size: cover;
+       flex-basis: 30%;
+  }
+  .header2 {
+    align-items: center;
+}
+.header2__logo {
+    flex-basis: 30%;
+}
+.header2__logo img {
+    width: 53%;
+}
+.header2__search {
+    flex-basis: 10%;
+    padding-bottom: 25px;
+}
+.header2__account {
+    flex-basis: 10%;
+    padding-bottom: 25px;
+}
+.header__cart {
+    flex-basis: 10%;
+    padding-bottom: 25px;
+}
+footer .bottom {
+    padding: 20px;
+}
+footer .bottom .bottom__container {
+    flex-direction: column;
+}
+footer .bottom .bottom__container .bottom__item {
+    margin-bottom: 25px;
+}
+.banner__item--txt button {
+    padding: 5px 15px;  
+    font-size: 13px;
+ 
+}
+
+.account {
+    width: auto;
+    height: auto;
+    margin-top: 141px;
+    box-shadow: none;
+    margin-bottom: 24px;
+}
+.connect__gg {
+    flex-basis: 48%;
+    padding: 10px 0;
+}
+.connect__gg i {
+    padding: 1px 0 0 0 ;
+}
+.connect__face {
+    flex-basis: 48%;
+    padding: 10px 0;
+}
+.connect__face i {
+    padding: 1px 0 0 0 ;
+}
+}
+
 
 
 
